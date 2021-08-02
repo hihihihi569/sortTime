@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul,li{
+  list-style:none; 
+  padding:0; margin:0; 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+main {
+  padding: 0 0 !important;
+}
+#dv{
+ 
+    width: 100%;
+    height: calc(100% - 120px);
+    border: 0px solid #1890ff;
+    box-shadow: 0px 0px 15px 5px RGB(24,144,255,0.4)  inset;
+    background: linear-gradient(to left, RGB(24,144,255,0.7) , RGB(24,144,255,0.7)) left top no-repeat,
+        linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left top no-repeat,
+        linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+        linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+        linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+        linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+        linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat,
+        linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat;
+        background-size: 3px 30px, 30px 3px, 3px 30px, 30px 3px;
+}
+.rightContent {       
+  margin:0  20px 0 0;
+}
+.tolNum {
+  position: relative;
+  width: 100%;
+  height: 32%;
+  border: 0px solid RGB(24,144,255,0.7);
+  box-shadow: 0px 0px 15px 5px RGB(24,144,255,0.4)  inset;
+  background: linear-gradient(to left, RGB(24,144,255,0.7) , RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat;
+      background-size: 2px 15px, 15px 2px, 2px 15px, 15px 2px; 
+}
+.baseinfo {
+  position: relative;
+  width: 100%;
+  height: 33%;
+  border: 0px solid #1890ff;
+  box-shadow: 0px 0px 15px 5px RGB(24,144,255,0.4)  inset;
+  background: linear-gradient(to left, RGB(24,144,255,0.7) , RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat;
+      background-size: 2px 15px, 15px 2px, 2px 15px, 15px 2px;      
+  margin:5px 0;
+}
+.realtimeTra {
+  width: 100%;
+  height: 33%;
+  border: 0px solid #1890ff;
+  box-shadow: 0px 0px 15px 5px RGB(24,144,255,0.4)  inset;
+  background: linear-gradient(to left, RGB(24,144,255,0.7) , RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat;
+      background-size: 2px 15px, 15px 2px, 2px 15px, 15px 2px;      
+}
+.NotNormal {
+  width: 100%;
+  height: 33%;
+  border: 0px solid #1890ff;
+  box-shadow: 0px 0px 15px 5px RGB(24,144,255,0.4)  inset;
+  background: linear-gradient(to left, RGB(24,144,255,0.7) , RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat;
+      background-size: 2px 15px, 15px 2px, 2px 15px, 15px 2px;      
+  margin-right: 5px;
+}
+.TpsNotNormal{
+  width: 100%;
+  height: 32.1%;
+  border: 0px solid #1890ff;
+  box-shadow: 0px 0px 15px 5px RGB(24,144,255,0.4)  inset;
+  background: linear-gradient(to left, RGB(24,144,255,0.7) , RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right top no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to bottom, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) left bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat,
+      linear-gradient(to left, RGB(24,144,255,0.7), RGB(24,144,255,0.7)) right bottom no-repeat;
+      background-size: 2px 15px, 15px 2px, 2px 15px, 15px 2px;     
+      margin-top: 5px;
+}
+.tolName{
+  position:relative;
+}
+.tolName::before{
+  position: absolute;
+  bottom: 0px;
+  left: -35px;
+  width: 0;
+  height: 0;
+  border-top: 35px solid #0E1D38;
+  border-left: 35px solid transparent; 
+  content: "";
+}
+.tolName::after {
+  position: absolute;
+  bottom: 0px;
+  left: 100%;
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 35px solid #0E1D38;
+    border-right: 35px solid transparent;
+}
+.drawPos{
+  width: 20px;
+  height: 20px;
+  background-color:rgb(100, 229, 206) ;
+  border-radius: 50% 50% 50% 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+  margin:5px 5px 0 0;
+}
+.drawPos:after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0,.5);
+  margin: 6px 0 0 6px;
+}
+.normalBg {  
+  width: 35px;
+  height: 49px;
+  background:rgba(0, 170, 255, 85);
+  font-size: 28px;
+  border-radius: 15%;
+  text-align: center;
+  line-height: 49px;
+  margin: 0 10px;
+}
+.alertBg {
+  width: 35px;
+  height: 49px;
+  background: rgba(170, 0, 0, 100);;
+  font-size: 28px;
+  border-radius: 15%;
+  text-align: center;
+  line-height: 49px;
+  margin: 0 10px;
+}
+.mar20 {  
+  margin: 0 20px;
+}
+.rollTable {
+  display: flex;
+  justify-content: space-between;
+  color:rgb(24, 144, 255);
+  font-size:12px;
+  border-bottom:2px solid #1890ff;
+}
+.roll{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  left: 0px;
+  font-size: 14px;
+}
+.roll ul{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    right: -17px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+.roll ul li{
+  
+  display: flex;
+  justify-content: space-between;
+      width: 100%;
+      line-height: 24px;
+}
+.roll ul li div{
+        display: inline-block;
+        color: #d62e1e;
+      }
+.roll ul li span{
+        margin: 0 10px;
+        color: #3ed3be;
+      }
+
+.anim {
+  transition: all 0.5s;
+  /* margin-top: -44px;   */
+}
+.NotNormal {
+  flex:1;
+}
+.topEle{
+  width: 60%;  
+}
+.bottomEle{
+ width: 40%;
+ position: relative;
+}
