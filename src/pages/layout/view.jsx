@@ -31,7 +31,6 @@ export default class View extends Component {
                         </Route>
                         <Route path="/time">
                             <LayoutTar>
-
                                 <Suspense fallback={<div>Loading...</div>}>
                                     {
                                         this.generateRouter(router)
